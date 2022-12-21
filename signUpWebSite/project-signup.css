@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.bg {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupPage {
+    width: 670px;
+    height: 960px;
+    border: 1px solid #aacdff;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 7px 7px 39px
+    rgba(0, 104, 255, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupBox {
+    width: 470px;
+    height: 818px;
+}
+
+.mainText {
+    width: 466px;
+    height: 94px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #0068FF;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.emailBox {
+    width: 466px;
+    height: 80px;
+    position: absolute;
+    top: 286px;
+    left: 725px;
+}
+
+.emailBox p {
+    color: #797979;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.emailBox input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #0068FF;
+    outline: none;
+}
+
+.nameBox {
+    width: 466px;
+    height: 80px;
+    position: absolute;
+    top: 387px;
+    left: 725px;
+}
+
+.nameBox p {
+    color: #797979;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.nameBox input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    outline: none;
+}
+
+.pwBox {
+    width: 466px;
+    height: 80px;
+    position: absolute;
+    top: 488px;
+    left: 725px;
+}
+
+.pwBox p {
+    color: #797979;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.pwBox input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    outline: none;
+}
+
+.pwchBox {
+    width: 466px;
+    height: 80px;
+    position: absolute;
+    top: 589px;
+    left: 725px;
+}
+
+.pwchBox p {
+    color: #797979;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.pwchBox input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    outline: none;
+}
+
+.genderBox {
+    width: 140px;
+    height: 24px;
+    position: absolute;
+    top: 719px;
+    left: 890px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+}
+
+.space {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+  }
+
+.checkbox {
+    width: 454px;
+    height: 21px;
+    position: absolute;
+    top: 793px;
+    left: 740px;
+    font-size: 12px;
+}
+
+.signupBtn {
+    width: 470px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    position: absolute;
+    top: 875px;
+    left: 725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupBtn button {
+    width: 70px;
+    height: 27px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background: none;
+    color: #0068FF;
+    border: none;
+}
