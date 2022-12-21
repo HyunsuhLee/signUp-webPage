@@ -1,1 +1,1 @@
-# signUp-webPage
+# 간단한 회원가입 홈페이지
